@@ -1,4 +1,5 @@
 <?php
+print_r($argv);
 include_once('/var/www/html/library/connection.php');
 $str=rand();
 $str = md5($str);
