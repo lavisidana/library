@@ -1,5 +1,5 @@
 <?php
-include_once('/var/www/html/library/connection.php');
+include_once('/var/www/html/library/db.php');
 include_once('/var/www/html/library/functions.php');
 switch ($_POST['action']) {
   case "coDependentDropDown":
